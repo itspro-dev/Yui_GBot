@@ -38,7 +38,6 @@ humanize
 #EXTRA-CO7
 dialect
 postgres
-pybase64==1.1.0
 pySmartDL
 youtube_dl
 youtube-search
