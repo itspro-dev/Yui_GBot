@@ -41,7 +41,9 @@ postgres
 pySmartDL
 youtube_dl
 youtube-search
-
+progress
+pytube
+youtube-search-python
 
 
 
