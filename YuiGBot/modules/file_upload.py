@@ -8,7 +8,7 @@ import aiohttp
 from telethon import events
 
 from YuiGBot import telethn as bot
-from YuiGBot.modules.file_upload.py import download_file
+from YuiGBot.modules.urluploader import download_file
 from YuiGBot.utils.uputils import humanbytes, progress
 
 DOWNLOADPATH = "Downloads/"
@@ -83,7 +83,7 @@ async def tsh(event):
 
             str(time.time() - start)
             await orta.edit(
-                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by @Yui_GBot "
+                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by @Yui_GBot 👸"
             )
         except Exception as e:
             traceback.print_exc()
@@ -91,3 +91,91 @@ async def tsh(event):
             await event.respond(f"Uploading Failed\n\n**Error:** {e}")
 
     raise events.StopPropagation
+
+
+@bot.on(events.NewMessage(pattern="/tmpninja"))
+async def tmp(event):
+    if event.reply_to_msg_id:
+        start = time.time()
+        url = await event.get_reply_message()
+        ilk = await event.respond("Downloading...")
+        try:
+            file_path = await url.download_media(
+                progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
+                    progress(d, t, ilk, start, "Downloading...")
+                )
+            )
+        except Exception as e:
+            traceback.print_exc()
+            print(e)
+            await event.respond(f"Downloading Failed\n\n**Error:** {e}")
+
+        await ilk.delete()
+
+        try:
+            orta = await event.respond("Uploading to TmpNinja...")
+            download_link = await send_to_tmp_async(file_path)
+
+            str(time.time() - start)
+            await orta.edit(
+                f"File Successfully Uploaded to TmpNinja.\n\nLink 👉 {download_link}\n\nUploaded by @Yui_GBot 👸"
+            )
+        except Exception as e:
+            traceback.print_exc()
+            print(e)
+            await event.respond(f"Uploading Failed\n\n**Error:** {e}")
+
+    raise events.StopPropagation
+
+
+@bot.on(events.NewMessage(pattern="/up"))
+async def up(event):
+    if event.reply_to_msg_id:
+        start = time.time()
+        url = await event.get_reply_message()
+        ilk = await event.respond("Downloading...")
+
+        try:
+            filename = os.path.join(DOWNLOADPATH, os.path.basename(url.text))
+            await download_file(url.text, filename, ilk, start, bot)
+        except Exception as e:
+            print(e)
+            await event.respond(f"Downloading Failed\n\n**Error:** {e}")
+
+        await ilk.delete()
+
+        try:
+            orta = await event.respond("Uploading to Telegram...")
+
+            dosya = await bot.upload_file(
+                filename,
+                progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
+                    progress(d, t, orta, start, "Uploading to Telegram...")
+                ),
+            )
+
+            str(time.time() - start)
+            await bot.send_file(
+                event.chat.id,
+                dosya,
+                force_document=True,
+                caption=f"Uploaded By @Yui_GBot",
+            )
+        except Exception as e:
+            traceback.print_exc()
+
+            print(e)
+            await event.respond(f"Uploading Failed\n\n**Error:** {e}")
+
+        await orta.delete()
+
+    raise events.StopPropagation
+
+
+def main():
+    if not os.path.isdir(DOWNLOADPATH):
+        os.mkdir(DOWNLOADPATH)
+
+
+if __name__ == "__main__":
+    main()
