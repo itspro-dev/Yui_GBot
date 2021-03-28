@@ -14,7 +14,7 @@ async def callback_query_handler(event):
     boy = event.sender_id
     PRO = await bot.get_entity(boy)
     YuiGBot = "YOUR DETAILS \n"
-    YuiGBot += f"FIRST NAME : {first_name} \n"
+    YuiGBot += f"FIRST NAME : {user.first_name} \n"
     YuiGBot += f"LAST NAME : {user.last_name}\n"
     YuiGBot += f"YOU BOT : {bot} \n"
     YuiGBot += f"RESTRICTED : {restricted} \n"
