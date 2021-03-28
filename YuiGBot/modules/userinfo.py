@@ -337,8 +337,8 @@ def info(update: Update, context: CallbackContext):
             _file = bot.get_file(profile["file_id"])
             _file.download(f"{user.id}.jpg")
 
-            message.reply_document(
-                document=open(f"{user.id}.jpg", "rb"),
+            message.reply_photo(
+                photo=open(f"{user.id}.jpg", "rb"),
                 caption=(text),
                 parse_mode=ParseMode.HTML,
                 disable_web_page_preview=True,
