@@ -38,4 +38,12 @@ humanize
 #EXTRA-CO7
 dialect
 postgres
+pybase64
+b64decode
+pySmartDL
+youtube_dl
+youtube-search
+
+
+
 
