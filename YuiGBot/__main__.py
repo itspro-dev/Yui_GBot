@@ -259,7 +259,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            GSTART_IMG "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            GSTART_IMG, "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
