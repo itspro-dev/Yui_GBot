@@ -1,4 +1,4 @@
 @echo off
-TITLE Saitama Robot
+TITLE YuiGBot
 :: Enables virtual env mode and then starts saitama
-env\scripts\activate.bat && py -m YuiGBot
+env\scripts\activate.bat && python3.8 -m YuiGBot
