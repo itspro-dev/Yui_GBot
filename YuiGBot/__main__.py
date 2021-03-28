@@ -73,10 +73,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+Hyy {}, My Name is {}
+
+i am a group management bot I can help you to manage your group
+You can find my list of available commands with /help
+
+Developer By- [ꋊꏂ꓄-ꇙꁝꏂ꒒꒒ ⚡️](https://t.me/Net_SHELL)
+
 """
 
 HELP_STRINGS = """
@@ -100,7 +103,8 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+YuiGBot_IMG = "https://telegra.ph/file/f73506e09900f96a9c16e.png"
+GSTART_IMG = "https://telegra.ph/file/8051350a1afea2c772dd5.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
@@ -254,13 +258,17 @@ def start(update: Update, context: CallbackContext):
                 ),
             )
     else:
-        update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+        update.effective_message.reply_video(
+            GSTART_IMG "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
         )
 
+        
+        #GSTART_CODE
+        
+        
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
