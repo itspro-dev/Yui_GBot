@@ -35,7 +35,8 @@ pretty_errors
 humanize
 
 
-#EXTRA-CO7
+#EXTRA-Requirements
+
 dialect
 postgres
 pySmartDL
@@ -45,5 +46,10 @@ progress
 pytube
 youtube-search-python
 telegraph
+aiohttp
+traceback2
+asyncio
+
+
 
 
