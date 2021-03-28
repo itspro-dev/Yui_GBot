@@ -8,7 +8,7 @@ import aiohttp
 from telethon import events
 
 from YuiGBot import telethn as bot
-from YuiGBot.modules.urluploader import download_file
+from YuiGBot.modules.file_upload.py import download_file
 from YuiGBot.utils.uputils import humanbytes, progress
 
 DOWNLOADPATH = "Downloads/"
