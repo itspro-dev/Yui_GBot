@@ -226,7 +226,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add Saitama to your group",
+                                text="Add Me 🔰",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -234,24 +234,24 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🚑 Support Group",
+                                text="Support Group 💬",
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="🔔 Updates Channel",
-                                url="https://t.me/OnePunchUpdates",
+                                text="🕸️ Uᴘᴅᴀᴛᴇ Nᴇᴡꜱ",
+                                url="https://t.me/Yui_Update",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🧾 Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                text="💠 Server  ! ˢᵗᵃᵗᵘˢ !",
+                                url="https://google.com",
                             )
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/YuiGBot",
+                                text="improve Me 🧲",
+                                url="https://github.com/NetSHELL-Team/YUi_GBot",
                             )
                         ],
                     ]
@@ -259,7 +259,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-                GSTART_IMG, caption=f"Let's Kill Bad Peoples\nBy Writing Those Name On Death Note")
+                GSTART_IMG, caption=f"Yoo 😊")
 
         
         #GSTART_IMG
@@ -387,12 +387,12 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+            "Send Me A Direct Message 😜",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="🔹 HELP 🔹",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -677,7 +677,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Using long polling.")
+        LOGGER.info("i Am online Master 😎")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
@@ -689,6 +689,6 @@ def main():
 
 
 if __name__ == "__main__":
-    LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
+    LOGGER.info("Successfully Loaded Modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
     main()
