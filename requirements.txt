@@ -54,7 +54,7 @@ ffmpeg
 pytz
 hachoir
 pybase64
-
+validators
 
 
 
