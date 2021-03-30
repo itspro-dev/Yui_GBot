@@ -51,5 +51,6 @@ traceback2
 asyncio
 download-file
 ffmpeg
+pytz
 
 
