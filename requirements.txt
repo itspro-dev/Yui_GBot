@@ -52,5 +52,10 @@ asyncio
 download-file
 ffmpeg
 pytz
+hachoir
+
+
+
+
 
 
