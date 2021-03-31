@@ -55,6 +55,14 @@ pytz
 hachoir
 pybase64
 validators
+dnspython
+
+
+
+
+
+
+
 
 
 
