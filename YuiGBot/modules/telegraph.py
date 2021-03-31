@@ -1,6 +1,6 @@
 from YuiGBot.events import register
 from YuiGBot import telethn as tbot
-TMP_DOWNLOAD_DIRECTORY = "./"
+TMP_DOWNLOAD_DIRECTORY = "tg-File/"
 from telethon import events
 import os
 from PIL import Image
