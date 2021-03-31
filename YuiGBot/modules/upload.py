@@ -12,6 +12,7 @@ from YuiGBot.modules.urluploader import download_file
 from YuiGBot.utils.uputils import humanbytes, progress
 
 DOWNLOADPATH = "YUi_DOWNLOAD/"
+TMP_DOWNLOAD_DIRECTORY = "tg-File/"
 
 
 def get_date_in_two_weeks():
