@@ -245,7 +245,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="💠 Server  ! ˢᵗᵃᵗᵘˢ !",
-                                url="https://google.com",
+                                url="https://server.plyton.in/",
                             )
                         ],
                         [
