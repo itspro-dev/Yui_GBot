@@ -12,14 +12,14 @@ from asyncio import sleep
 from telethon.tl.types import DocumentAttributeAudio
 from collections import deque
 from googleapiclient.discovery import build
-from YuiGBot.Yui import YuiGBot
+from YuiGBot.yui import YuiGBot
 from YuiGBot import YOUTUBE_API_KEY
 from html import unescape
 import requests
 
 
 
-@Yui_GBot(pattern="^/yt(audio|video) (.*)")
+@YuiGBot(pattern="^/yt(audio|video) (.*)")
 async def download_video(v_url):
     """ For .ytdl command, download media from YouTube and many other sites. """
     url = v_url.pattern_match.group(2)
@@ -140,4 +140,17 @@ async def download_video(v_url):
             supports_streaming=True,
             caption=ytdl_data['title'])
         os.remove(f"{ytdl_data['id']}.mp4")
+                  
+                  
+                  
+__help__ = """
+ • `/song`** <songname artist(optional)>: uploads the song in it's best quality available. 
+ 
+ • `/video`** <songname artist(optional)>: uploads the video song in it's best quality available.
+ 
+ • `/lyrics`** <songname artist(optional)>: sends the complete lyrics of the song provided as input
+ 
+ • `/ytaudio`** <link> or `/ytvideo`** <link>: Downlods a video or audio from a youtube video to the bots local serve.. 
+"""
+__mod_name__ = "Songs"
       
