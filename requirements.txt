@@ -56,8 +56,8 @@ hachoir
 pybase64
 validators
 dnspython
-
-
+build
+google-api-python-client
 
 
 
