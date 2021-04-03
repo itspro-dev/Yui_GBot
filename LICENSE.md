@@ -15,7 +15,7 @@ YLC - VGhpcyBSZXBvc2l0b3J5IENvZGUgTW9kaWZpZWQgQnkgVGVhbSBOZXRTSEVMTA==
 </p>
 <p id="work-attribution-container" style="display:none;">
 
-Attribute this work: [AnimeKaizoku/SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)
+Original this work By: [AnimeKaizoku/SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)
 
 
 <br>
