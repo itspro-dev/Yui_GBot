@@ -14,10 +14,10 @@ YLC - VGhpcyBSZXBvc2l0b3J5IENvZGUgTW9kaWZpZWQgQnkgVGVhbSBOZXRTSEVMTA==
 <span id="by-more-container"></span>
 </p>
 <p id="work-attribution-container" style="display:none;">
-<strong>
+
 Attribute this work: [AnimeKaizoku/SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)
 
-</strong>
+
 <br>
 <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();">
 <input id="license-code" type="hidden" value="CC BY-NC-SA 4.0">
