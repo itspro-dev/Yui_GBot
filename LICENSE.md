@@ -5,6 +5,7 @@ YLC - VGhpcyBSZXBvc2l0b3J5IENvZGUgTW9kaWZpZWQgQnkgVGVhbSBOZXRTSEVMTA==
 
 
 
+<div id="deed-conditions" class="row">
 <h3 style="text-align: center">Under the following terms:</h3>
 <ul dir="ltr" style="text-align: left" class="license-properties col-md-offset-2 col-md-8">
 <li class="license by">
@@ -20,8 +21,7 @@ Attribute this work:
 <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();">
 <input id="license-code" type="hidden" value="CC BY-NC-SA 4.0">
 <input id="license-url" type="hidden" value="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-<a href="" id="attribution_help" class="helpLink" tabindex="0" data-original-title="" title="">
-<img src="/images/information.png" alt="Information">
+<p id="AnimeKaizoku" style="display:none;">
 </a>
 </p>
 </li>
@@ -35,6 +35,7 @@ Attribute this work:
 <p>
 <strong>ShareAlike</strong> — If you remix, transform, or build upon the material, you must distribute your contributions under the <a href="#" id="same_license_popup" class="helpLink" tabindex="0" data-original-title="" title="">same license</a> as the original.
 <span id="sa-more-container"></span>
-
-
-
+ </p>
+</li>
+</ul>
+</div>
