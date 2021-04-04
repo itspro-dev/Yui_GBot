@@ -58,7 +58,7 @@ validators
 dnspython
 build
 google-api-python-client
-
+pypi-register
 
 
 
