@@ -15,7 +15,7 @@ from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
 from YuiGBot.modules.helper_funcs.chat_status import user_admin, sudo_plus, is_user_admin
 from YuiGBot import dispatcher, OWNER_ID, DRAGONS, DEMONS, DEV_USERS, WOLVES
-from Yui_Gbot.__main__ import STATS, USER_INFO, TOKEN
+from YuiGBot.__main__ import STATS, USER_INFO, TOKEN
 from YuiGBot.modules.disable import DisableAbleCommandHandler, DisableAbleRegexHandler
 from YuiGBot.modules.helper_funcs.extraction import extract_user
 from YuiGBot.modules.helper_funcs.filters import CustomFilters
