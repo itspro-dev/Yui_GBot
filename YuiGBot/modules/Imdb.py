@@ -6,7 +6,7 @@ from telethon import types
 from telethon.tl import functions
 
 from YuiGBot import telethn
-from YuiGBot.event import register
+from YuiGBot.events import register
 
 langi = "en"
 
