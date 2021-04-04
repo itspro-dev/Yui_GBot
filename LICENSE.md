@@ -46,3 +46,8 @@ ReModify By: [NetSHELL](https://telegram.me/Net_SHELL)
 </li>
 </ul>
 </div>
+
+
+<img src="https://creativecommons.org/images/deed/FreeCulturalWorks_seal_x2.jpg" style="border: 0" alt="This license is acceptable for Free Cultural Works.">
+ 
+
