@@ -37,6 +37,11 @@ ReModify By: [NetSHELL](https://telegram.me/Net_SHELL)
 <p>
 <strong>ShareAlike</strong> — If you remix, transform, or build upon the material, you must distribute your contributions under the <a href="#" id="same_license_popup" class="helpLink" tabindex="0" data-original-title="" title="">same license</a> as the original.
 <span id="sa-more-container"></span>
+ 
+ 
+ <li class="license">
+<strong>No additional restrictions</strong> — You may not apply legal terms or <a href="#" id="technological_measures_popup" class="helpLink" tabindex="0" data-original-title="" title="">technological measures</a> that legally restrict others from doing anything the license permits.
+</li>
  </p>
 </li>
 </ul>
