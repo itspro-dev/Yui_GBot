@@ -10,7 +10,7 @@ Credits - [DEVLOPER](https://telegram.me/Net_SHELL)
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) 
+![CC BY 4.0 license](https://img.shields.io/badge/CC%20BY-4.0-green)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.png)](https://github.com/ellerbrock/open-source-badges/)
 
