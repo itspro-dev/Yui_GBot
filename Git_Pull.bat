@@ -1,5 +1,5 @@
 @echo off
-TITLE Yui Quick-Pull
+TITLE Github Quick-Pull
 
 :: Print the branch cause ..oooooo fancy!
 echo Pulling from branch: 
