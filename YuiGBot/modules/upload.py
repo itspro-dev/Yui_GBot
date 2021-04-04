@@ -11,7 +11,7 @@ from YuiGBot import telethn as bot
 from YuiGBot.modules.urluploader import download_file
 from YuiGBot.utils.uputils import humanbytes, progress
 
-DOWNLOADPATH = "YUi_DOWNLOAD/"
+DOWNLOADPATH = "tg-File/"
 TMP_DOWNLOAD_DIRECTORY = "tg-File/"
 
 
