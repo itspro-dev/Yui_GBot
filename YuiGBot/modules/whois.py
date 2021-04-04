@@ -14,7 +14,7 @@ from telegram import ParseMode
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
 from YuiGBot.modules.helper_funcs.chat_status import user_admin, sudo_plus, is_user_admin
-from YuiGBot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, DEV_USERS, WHITELIST_USERS
+from YuiGBot import dispatcher, OWNER_ID, DRAGONS, DEMONS, DEV_USERS, WOLVES
 from Yui_Gbot.__main__ import STATS, USER_INFO, TOKEN
 from YuiGBot.modules.disable import DisableAbleCommandHandler, DisableAbleRegexHandler
 from YuiGBot.modules.helper_funcs.extraction import extract_user
@@ -78,7 +78,7 @@ def whois(bot: Bot, update: Update, args: List[str]):
     elif user.id in DEV_USERS:
         text += "\n🚴‍♂️Pling,This person is my dev🤷‍♂️\nI would never do anything against him!."
         
-    elif user.id in SUDO_USERS:
+    elif user.id in DEMONS:
         text += "\n🚴‍♂️Pling,This person is one of my sudo users! " \
                     "Nearly as powerful as my owner🕊so watch it.."
         
