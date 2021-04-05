@@ -120,19 +120,19 @@ def warn(
             [
                 [
                     InlineKeyboardButton(
-                        "🔘 Remove warn", callback_data="rm_warn({})".format(user.id)
+                        "🔘 Remove Warn 🔘", callback_data="rm_warn({})".format(user.id)
                     )
                 ]
             ]
         )
 
         reply = (
-            f"<code>❕</code><b>Warn Event</b>\n"
-            f"<code> </code><b>•  User:</b> {mention_html(user.id, user.first_name)}\n"
-            f"<code> </code><b>•  Count:</b> {num_warns}/{limit}"
+            f"<code>╍╍▷</code><b>! Warning</b>\n"
+            f"<code> </code><b>┣  User:</b> {mention_html(user.id, user.first_name)}\n"
+            f"<code> </code><b>┣  Warn Count:</b> {num_warns}/{limit}"
         )
         if reason:
-            reply += f"\n<code> </code><b>•  Reason:</b> {html.escape(reason)}"
+            reply += f"\n<code> </code><b>╍╍▷  Reason:</b> {html.escape(reason)}"
 
         log_reason = (
             f"<b>{html.escape(chat.title)}:</b>\n"
