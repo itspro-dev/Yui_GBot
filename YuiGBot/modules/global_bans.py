@@ -405,11 +405,11 @@ def gbanlist(update: Update, context: CallbackContext):
             banfile += f"Reason: {user['reason']}\n"
 
     with BytesIO(str.encode(banfile)) as output:
-        output.name = "gbanlist.txt"
+        output.name = "yui-gbanlist.txt"
         update.effective_message.reply_document(
             document=output,
-            filename="gbanlist.txt",
-            caption="Here is the list of currently gbanned users.",
+            filename="yui-gbanlist.txt",
+            caption="Here is The File of Currently Gbanned Users.",
         )
 
 
