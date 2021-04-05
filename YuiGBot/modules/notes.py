@@ -503,7 +503,7 @@ def __import_data__(chat_id, data):
 
 
 def __stats__():
-    return f"• {sql.num_notes()} notes, across {sql.num_chats()} chats."
+    return f"┝ {sql.num_notes()} Notes, Across {sql.num_chats()} Chats."
 
 
 def __migrate__(old_chat_id, new_chat_id):
