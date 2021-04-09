@@ -106,10 +106,9 @@ And the following:
 YuiGBot_IMG = "https://telegra.ph/file/f73506e09900f96a9c16e.png"
 GSTART_IMG = "https://telegra.ph/file/8051350a1afea2c772dd5.mp4"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
+DONATE_STRING = """You can support the project via [UPi](https://telegra.ph/L%CE%9EG%CE%9EID-04-09-2) or by contacting @NetSHEEL\
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @Yui_Official"""
 
 IMPORTED = {}
 MIGRATEABLE = []
