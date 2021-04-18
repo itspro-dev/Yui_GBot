@@ -35,6 +35,7 @@ pretty_errors
 humanize
 
 
+
 #EXTRA-Requirements
 
 dialect
@@ -60,7 +61,12 @@ build
 google-api-python-client
 pypi-register
 
+#add-Elina-r-
 
+aiohttp
+pyrogram
+TgCrypto
+asyncio
 
 
 
