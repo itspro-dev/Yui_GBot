@@ -71,7 +71,9 @@ dbapi
 dbapi-compliance
 records
 pugsql
-
+psycopg2
+mysql-python
+PyMySQL
 
 
 
