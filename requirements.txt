@@ -69,6 +69,8 @@ TgCrypto
 asyncio
 dbapi
 dbapi-compliance
+records
+pugsql
 
 
 
