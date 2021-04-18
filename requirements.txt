@@ -67,6 +67,8 @@ aiohttp
 pyrogram
 TgCrypto
 asyncio
+dbapi
+dbapi-compliance
 
 
 
