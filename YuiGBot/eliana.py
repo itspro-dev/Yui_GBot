@@ -6,9 +6,9 @@ from pyrogram import Client, filters
 
 eliana = Client(
     ":memory:",
-    token="token Api here",
-    api_id=2442183,
-    api_hash="66c6799e1b784aff78bad680cd8362db",
+    token="1414346382:AAF9oz4SNi1LaNF0Cph9mtdZfD8OhnkipPc",
+    api_id=1979859,
+    api_hash="2d8efd791d4ae887c2411aee30f3542e",
 )
 
 
