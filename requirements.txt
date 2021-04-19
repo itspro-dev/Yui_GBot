@@ -67,7 +67,6 @@ pypi-register
 textwrap3
 urllib3
 random2
-jsonlib
 
 
 
