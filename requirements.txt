@@ -63,16 +63,7 @@ pypi-register
 
 #ex2EEEE
 
-aiohttp
-pyrogram
-TgCrypto
-asyncio
-dbapi
-dbapi-compliance
-records
-pugsql
-mysql-python
-PyMySQL
+
 textwrap3
 urllib3
 logging
