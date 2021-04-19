@@ -61,7 +61,7 @@ build
 google-api-python-client
 pypi-register
 
-#add-Elina-r-
+#ex2EEEE
 
 aiohttp
 pyrogram
@@ -74,6 +74,11 @@ pugsql
 psycopg2
 mysql-python
 PyMySQL
+textwrap3
+urllib3
+logging
+random2
+jsonlib
 
 
 
