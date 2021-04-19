@@ -67,7 +67,8 @@ pypi-register
 textwrap3
 urllib3
 random2
-
+image
+Pillow
 
 
 
