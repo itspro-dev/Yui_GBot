@@ -83,7 +83,7 @@ def kang(update: Update, context: CallbackContext):
     packnum = 0
     packname = "a" + str(user.id) + "_by_" + context.bot.username
     packname_found = 0
-    max_stickers = 120
+    max_stickers = 420
     while packname_found == 0:
         try:
             stickerset = context.bot.get_sticker_set(packname)
@@ -162,7 +162,7 @@ def kang(update: Update, context: CallbackContext):
                     emojis=sticker_emoji,
                 )
                 msg.reply_text(
-                    f"Sticker successfully added to [pack](t.me/addstickers/{packname})"
+                    f"Sticker Added To [#YPACK](t.me/addstickers/{packname})"
                     + f"\nEmoji is: {sticker_emoji}",
                     parse_mode=ParseMode.MARKDOWN,
                 )
