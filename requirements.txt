@@ -19,7 +19,7 @@ CurrencyConverter
 #googletrans
 google_trans_new
 jikanpy
-speedtest-cli==2.1.2
+speedtest-cli
 coffeehouse
 regex
 bleach
