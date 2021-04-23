@@ -63,7 +63,7 @@ pypi-register
 
 #ex2EEEE
 
-
+speedtest
 textwrap3
 urllib3
 random2
