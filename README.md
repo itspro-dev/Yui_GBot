@@ -6,7 +6,8 @@ Credits - [DEVLOPER](https://telegram.me/Net_SHELL)
 
 ![Yui](https://telegra.ph/file/fd91caf6f744344adec13.jpg)
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9b1165f6dc104c988126bdb92901979a)](https://www.codacy.com/gh/NetSHELL-Team/YUi_GBot_Global/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NetSHELL-Team/YUi_GBot_Global&amp;utm_campaign=Badge_Grade)  
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3a1d9122f1b74c4c9baaa071f6ee056a)](https://www.codacy.com/gh/NetSHELL-Team/Yui_GBot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NetSHELL-Team/Yui_GBot&amp;utm_campaign=Badge_Grade)
+
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
