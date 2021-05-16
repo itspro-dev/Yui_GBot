@@ -14,7 +14,7 @@ from telegram.utils.helpers import mention_html
 from YuiGBot import dispatcher
 from YuiGBot.modules.disable import DisableAbleCommandHandler
 
-combot_stickers_url = "https://combot.org/telegram/stickers?q="
+combot_stickers_url = "http://combot.org/telegram/stickers?q="
 
 
 @run_async
