@@ -103,8 +103,8 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-YuiGBot_IMG = "https://telegra.ph/file/f73506e09900f96a9c16e.png"
-GSTART_IMG = "https://telegra.ph/file/8051350a1afea2c772dd5.mp4"
+YuiGBot_IMG = "https://telegra.ph/file/a0f5524a6b58a6defacc0.png"
+GSTART_IMG = "https://telegra.ph/file/b866169a5727df9cc0d30.mp4"
 
 DONATE_STRING = """You can support the project via [UPi](https://telegra.ph/L%CE%9EG%CE%9EID-04-09-2) or by contacting @NetSHEEL\
  Supporting isnt always financial! \
